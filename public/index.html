@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="he">
+    <head>
+        <title>eCademy || Chat App</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+        <link rel="manifest" href="./img/site.webmanifest">
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body dir="rtl">
+
+        <div class="centered-form">
+            <div class="centered-form-box">
+                <h1>הצטרפו לצ'אט</h1>
+                <form action="./chat.html">
+                    <label for="username">כינוי</label>
+                    <input required oninput="this.setCustomValidity('')" oninvalid="this.setCustomValidity('אנא מלא שדה זה!')" type="text" id="username" name="username" placeholder="הכניסו כינוי ...">
+                    <label for="room">חדר</label>
+                    <input required oninput="this.setCustomValidity('')" oninvalid="this.setCustomValidity('אנא מלא שדה זה!')" type="text" id="room"name="room" placeholder="הכניסו שם חדר ...">
+                    <button>הצטרפו</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
+
